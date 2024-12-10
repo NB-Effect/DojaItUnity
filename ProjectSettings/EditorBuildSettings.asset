@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Project/Miso/Scenes/UI_Title.unity
     guid: 4a04feea2078267469e77074b257c6a3
+  - enabled: 1
+    path: Assets/Project/Sieun/drawingScene.unity
+    guid: 2b522dfabfd1f224a9965731742605a7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
