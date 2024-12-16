@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Project/Miso/Scenes/UI_Title.unity
     guid: 4a04feea2078267469e77074b257c6a3
+  - enabled: 1
+    path: Assets/Project/Miso/Scenes/UI_Home.unity
+    guid: f0de8832884580946adb5c7d2def03c7
+  - enabled: 1
+    path: Assets/Project/Yeonwoo/Scenes/PotteryWheelScene.unity
+    guid: c3b2c6521e1981643824bfe9ae193611
+  - enabled: 1
+    path: Assets/Project/Yeonwoo/Scenes/PotteryColorScene.unity
+    guid: e5e0f01963dbdef498eea86a74274641
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
