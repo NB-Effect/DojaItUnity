@@ -22,13 +22,13 @@ public class WheelHand : MonoBehaviour
     private void OnSecondaryButtonPressed(InputAction.CallbackContext context)
     {
         isSecondaryButtonPressed = true;
-        Debug.Log("세컨더리 버튼 누름");
+        //Debug.Log("세컨더리 버튼 누름");
     }
 
     private void OnSecondaryButtonReleased(InputAction.CallbackContext context)
     {
         isSecondaryButtonPressed = false;
-        Debug.Log("세컨더리 버튼 뗌");
+        //Debug.Log("세컨더리 버튼 뗌");
     }
 
     private void OnTriggerStay(Collider other)
@@ -44,7 +44,7 @@ public class WheelHand : MonoBehaviour
                 if (wood != null)
                 {
                     wood.Improve(coll.index, improvement);
-                    Debug.Log("도자기 늘어남");
+                    Debug.Log("도자기 늘어나는 중...");
                 }
             }
             else
@@ -54,7 +54,7 @@ public class WheelHand : MonoBehaviour
                 if (wood != null)
                 {
                     wood.Hit(coll.index, hitDamage);
-                    Debug.Log("도자기 줄어듦");
+                    Debug.Log("도자기 줄어드는 중...");
                 }
             }
         }
